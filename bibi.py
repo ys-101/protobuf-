@@ -5,36 +5,16 @@ from google.protobuf.json_format import MessageToDict
 
 
 def start_requests():
-    # cookies = {
-    #     'rpdid': '|(J~RkYYY|k|0J\'uYulYRlJl)',
-    #     'buvid3': '794669E2-CEBC-4737-AB8F-73CB9D9C0088184988infoc',
-    #     'buvid4': '046D34538-767A-526A-8625-7D1F04E0183673538-022021413-+yHNrXw7i70NUnsrLeJd2Q%3D%3D',
-    #     'DedeUserID': '481849275',
-    #     'DedeUserID__ckMd5': '04771b27fae39420',
-    #     'sid': 'ij1go1j8',
-    #     'i-wanna-go-back': '-1',
-    #     'b_ut': '5',
-    #     'CURRENT_BLACKGAP': '0',
-    #     'buvid_fp_plain': 'undefined',
-    #     'blackside_state': '0',
-    #     'nostalgia_conf': '-1',
-    #     'PVID': '2',
-    #     'b_lsid': '55BA153F_18190A78A34',
-    #     'bsource': 'search_baidu',
-    #     'innersign': '1',
-    #     'CURRENT_FNVAL': '4048',
-    #     'b_timer': '%7B%22ffp%22%3A%7B%22333.1007.fp.risk_794669E2%22%3A%2218190A78B5F%22%2C%22333.788.fp.risk_794669E2%22%3A%2218190A797FF%22%2C%22333.42.fp.risk_794669E2%22%3A%2218190A7A6C5%22%7D%7D',
-    # }
 
     headers = {
         'authority': 'xxxxxx',
         'accept': '*/*',
         'accept-language': 'zh-CN,zh;q=0.9',
         'cache-control': 'no-cache',
-        'cookies':'_uuid=5925CDDE-759A-3101E-5EFD-EBE87A19F6A688621infoc; buvid3=35AAD55C-27F0-AAA7-2C37-C9F6FB42230E90593infoc; b_nut=1644227990; buvid4=7C3B4BDA-83CE-1917-2B03-14FEE72E210C90593-022020717-aN5fltImCgQM39L1GEjDm6lMBQy6uzXFmozP/IvB8wjlJE35Qr/kqw==; CURRENT_BLACKGAP=0; blackside_state=0; rpdid=0zbfvRPVtP|uzRxLYUU|2bB|3w1NirVA; buvid_fp_plain=undefined; i-wanna-go-back=-1; LIVE_BUVID=AUTO4716448267099261; nostalgia_conf=-1; CURRENT_FNVAL=4048; fingerprint=3dfcea3d3cb9c8a1a33a8735c9d91c35; SESSDATA=52f71fb5,1673666239,8add9*71; bili_jct=685123bf915b3db642a3d8469e9b380e; DedeUserID=412399116; DedeUserID__ckMd5=db9e8ebe80ec9f6b; buvid_fp=3dfcea3d3cb9c8a1a33a8735c9d91c35; b_ut=5; fingerprint3=aff0446f7b6de32e814cfcc988cba508; PVID=2; b_lsid=2811010A98_1821492DC47; bsource=search_baidu; bp_video_offset_412399116=684435792281468900; innersign=1; b_timer={"ffp":{"333.1007.fp.risk_35AAD55C":"1821493118C","333.788.fp.risk_35AAD55C":"182149370C8"}}; sid=odexw1mt',
+        'cookies':'自己的cookie',
         'origin': 'https://www.xxxxx.com',
         'pragma': 'no-cache',
-        'referer': 'https://www.bilibili.com/video/BV1E4411B7ef?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=3374492988fa79cc49e37a8221ff5cd8',
+        'referer': 'https://www.xxxxx.com/video/BV1E4411B7ef?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=3374492988fa79cc49e37a8221ff5cd8',
         'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',
